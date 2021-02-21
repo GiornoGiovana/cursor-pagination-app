@@ -1,0 +1,7 @@
+query Movies($limit: Float!, $offset: Float!) {
+  movies(limit: $limit, offset: $offset) {
+    id
+    title
+    info
+  }
+}

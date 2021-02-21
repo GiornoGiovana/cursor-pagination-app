@@ -1,0 +1,5 @@
+mutation Register($username: String!, $options: EmailPasswordInput!) {
+  register(username: $username, options: $options) {
+    ...MainUser
+  }
+}
